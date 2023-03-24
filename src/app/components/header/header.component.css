@@ -1,0 +1,14 @@
+header {
+    display: flex;
+    justify-content: space-between;
+}
+
+.logo {
+    rotate: 23.5deg;
+}
+
+.title {
+    margin-left: 20px;
+    font-size: 2.8rem;
+    color: #000000C2;
+}

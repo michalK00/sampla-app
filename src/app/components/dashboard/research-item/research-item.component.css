@@ -1,0 +1,52 @@
+hr {
+    height: 1px;
+    background-color: #DFDFDF;
+    border: none;
+}
+
+
+.research {
+    font-size: 3rem;
+    width: auto;
+    display: flex;
+    padding: 1rem 0 1rem 0;
+}
+
+#flexbox {
+    display: flex;
+    justify-content: center;
+    align-content: center;
+    flex-direction: column;
+}
+
+.id {
+    width: 15%;
+}
+
+.name {
+    width: 40%;
+}
+
+.status {
+    width: 25%;
+}
+
+.statusBox {
+    width: fit-content;
+    padding: 0.5rem 1.5rem 0.5rem 1.5rem;
+    font-size: 1.7rem;
+    border-radius: 25px;
+}
+
+.date {
+    width: 15%;
+}
+
+.delete {
+    width: 5%;
+    max-width: 25px;
+}
+
+.img {
+    width: 100%;
+}

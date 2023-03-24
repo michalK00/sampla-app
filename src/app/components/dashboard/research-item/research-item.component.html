@@ -1,0 +1,16 @@
+<div class="row">
+    <div class="research">
+        <div id="flexbox" class="id">{{research.id}}</div>
+        <div id="flexbox" class="name">{{research.name}}</div>
+        <div id="flexbox" class="date">{{research.created}}</div>
+        <div id="flexbox" class="status">
+            <div id="flexbox" class="statusBox"
+                [style.background-color]="(research.status=='Completed') ? '#DDF3D9' : '#FFEEB0'"
+                [style.color]="(research.status=='Completed') ? '#87AF7F' : '#AE9E67'">{{research.status}}</div>
+        </div>
+        <div id="flexbox" class="delete"><img class="img"
+                src="https://s3-alpha-sig.figma.com/img/98e1/5fa5/e71501af4a2fa41cb3db6fbda7d6632d?Expires=1680480000&Signature=SVS-VEt4qZt6mQndkjemn1EO8-acmuqvEI0ZAQ6C50lUKu4DnVWuq2wl4uDhSusd1lpXpAvutCpKksciBnT6ywtZdiJ5UlOJiQ4lAiiSnaIiCxCaTZFQ0Fh4kf5WeSNFx~UI8ZY2fuQ4DH4ZfH-NtYI~oq0L-FRVC2jWWBjmQMFWdZflZIdT1bJDcfsFxkFC4lwLwzN-TUYpvMiSsB5TPRvnHEQA9tG~4y9LTZjYwNdaw8Un1uusjJZNh~iRomMYYoBFkWSRwjiMSS2Ccdxm9kQw1QkY8o7t0o~qmTc2Fk32hNom4VM3wff0I17J2uPheLTAdw7KVrpxoXWSmTKsQw__&Key-Pair-Id=APKAQ4GOSFWCVNEHN3O4"
+                alt="Delete research"></div>
+    </div>
+    <hr>
+</div>

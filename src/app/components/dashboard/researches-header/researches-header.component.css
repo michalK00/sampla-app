@@ -1,0 +1,36 @@
+.box {
+    background-color: #F0EFEF;
+    width: 100%;
+    margin: 1rem 0 1rem 0;
+    height: 3.5rem;
+    border-radius: 7px;
+    display: flex;
+    padding: 0 1rem 0 1rem;
+    font-size: 3rem;
+    width: auto;
+    display: flex;
+}
+
+
+#flexbox {
+    display: flex;
+    justify-content: center;
+    align-content: center;
+    flex-direction: column;
+}
+
+.id {
+    width: 15%;
+}
+
+.name {
+    width: 40%;
+}
+
+.status {
+    width: 26.5%;
+}
+
+.date {
+    width: 18.5%;
+}
